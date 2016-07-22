@@ -1,33 +1,33 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/42/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-2.7.jar",
+      "md5" : "ebb9a4e8c207152e29c804ee9fabb737",
+      "sha1" : "ee83e7b477f9ab90a98e486bfd2e2b2d257cfc37",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-2.7.pom",
+      "md5" : "d84c4d7f8fa9fbfd2ab15e6983897409",
+      "sha1" : "7af6eb6236c739669844cf1d70882421465a4c1d",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.7",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
+  "vcsRevision" : "b453ff11a267ba21dbd788044c86116701c5ef5b",
   "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
+  "started" : "2016-07-22T18:45:34.593-0400",
   "agent" : {
-    "version" : "1.580.3",
+    "version" : "1.642.4",
     "name" : "Jenkins"
   },
   "buildAgent" : {
     "version" : "3.0.5",
     "name" : "Maven"
   },
-  "durationMillis" : 3824,
+  "durationMillis" : 4270,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -37,17 +37,17 @@
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
     "buildNumbersNotToBeDiscarded" : [ ],
+    "minimumBuildDate" : 1466635534603,
     "count" : 2
   },
   "statuses" : [ {
-    "repository" : "plugins-release-local",
+    "repository" : "ext-release-local",
     "status" : "Staged",
     "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
-    "comment" : ""
+    "timestampDate" : 1469227534593,
+    "comment" : "",
+    "timestamp" : "2016-07-22T18:45:34.593-0400"
   } ],
   "governance" : {
     "blackDuckProperties" : {
@@ -60,5 +60,5 @@
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "42"
 }
